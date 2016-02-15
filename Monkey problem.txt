@@ -1,0 +1,8 @@
+A monkey is put on a planar grid. The monkey is able to walk around on the planar grid, one space at a time left, right, up or down, e.g. from (x, y) the monkey can move to (x+1, y), (x-1, y), (x, y+1), or (x, y-1) etc. Points where the sum of the digits of the absolute value of the x coordinate plus the sum of the digits of the absolute value of the y coordinate are lesser than or equal to 20 are accessible to the monkey. For example, the point (58, 77) is inaccessible because 5 + 8 + 7 + 7 = 27, which is greater than 20. Another example: the point (-1, -2) is accessible because abs(-1) + abs(-2) = 1 + 2 = 3, which is less than 20.
+
+Write a program to find the longest distance can the monkey move from random given point (x,y) which is unnecessary to be (0,0).
+
+
+Bonus:
+
+If two monkeys are put on the same planar grid at two random points. Write another program to find the shortest path for the monkeys to meet each other.
